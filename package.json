@@ -5,8 +5,11 @@
   "repository": "https://github.com/sisisin/esbuild-plugin-filename",
   "author": "sisisin <azsisisin@gmail.com>",
   "license": "MIT",
-  "type": "module",
   "devDependencies": {
     "esbuild": "^0.17.0"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.20.7",
+    "@babel/traverse": "^7.20.12"
   }
 }
